@@ -3,7 +3,7 @@ __pycache__/
 .env
 .streamlit/secrets.toml
 
-# data/*.geojson
+data/*.geojson
 output/
 
 .DS_Store

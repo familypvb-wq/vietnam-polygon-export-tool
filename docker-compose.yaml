@@ -10,8 +10,8 @@ services:
 
     restart: unless-stopped
 
-    volumes:
-      - ./data:/app/data:ro
+    # volumes:
+    #   - ./data:/app/data:ro
 
     healthcheck:
       test: ["CMD-SHELL", "wget --spider --quiet http://localhost:8501/_stcore/health || exit 1"]

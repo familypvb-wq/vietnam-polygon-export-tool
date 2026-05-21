@@ -22,7 +22,8 @@ st.set_page_config(
     layout="wide"
 )
 
-DATA_PATH = "data/ward_polygons.geojson"
+# DATA_PATH = "data/ward_polygons.geojson"
+DATA_PATH = "zip://data/ward_polygons.zip"
 MAX_FEATURES = 5000
 
 # =========================
