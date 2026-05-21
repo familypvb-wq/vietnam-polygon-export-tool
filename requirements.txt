@@ -1,0 +1,11 @@
+# requirements.txt
+
+streamlit
+geopandas
+folium
+streamlit-folium
+fiona
+pyogrio
+shapely
+pandas
+simplekml
