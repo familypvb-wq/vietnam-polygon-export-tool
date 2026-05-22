@@ -5,10 +5,10 @@ services:
     build: .
     container_name: polygon-tool
     
-    # expose:
-    #   - "8501"
-    ports:
-      - "8501:8501"
+    expose:
+      - "8501"
+    # ports:
+    #   - "8501:8501"
 
     restart: unless-stopped
 
